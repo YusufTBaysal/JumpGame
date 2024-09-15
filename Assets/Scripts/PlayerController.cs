@@ -90,7 +90,11 @@ public class PlayerController : MonoBehaviour
     }
 
     void Jump()
+<<<<<<< HEAD
     {x
+=======
+    {
+>>>>>>> origin/Yusuf
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         jumpCount--;
         isGrounded = false;
